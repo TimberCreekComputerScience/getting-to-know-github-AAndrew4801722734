@@ -2,22 +2,18 @@ import java.util.Scanner;
 
 public class Lemonade{
 
-
      public static void main(String []args){
-
+	
 	Scanner scan = new Scanner(System.in);
 	
-        System.out.println("How much lemonadedo you want?");
-
-        
-int amount = scan.nextInt();
-
-        double price = amount * 1.50;
-
-        System.out.printf("$%.2f",price);
-
+        System.out.println("How much lemonade do you want?");
 	
-        
-}
+	int amount = scan.nextInt();
+	
+        double price = amount * 1.50;
+	
+        System.out.printf("$%.2f",price);
+	
+	}
 
 }
